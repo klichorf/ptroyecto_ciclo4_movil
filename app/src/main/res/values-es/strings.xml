@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tu estilo</string>
+    <string name="txv_usuario">Usuario</string>
+    <string name="edt_usuario">Ingrese usuario</string>
+    <string name="txv_clave">Ingrese contraseña</string>
+    <string name="edit_clave">******</string>
+    <string name="txt_boton">Ingresar</string>
+    <string name="txt_remember">Recupere su contraseña ó usuario</string>
+    <string name="txt_registrarse">Registrese</string>
+    <string name="edtxtform">Formulario de registro</string>
+    <string name="names">Nombres</string>
+    <string name="edtxtnames">Digitar Nombres</string>
+    <string name="edtxtlastnames">Digitar Apellidos</string>
+    <string name="txt_ConfirmPasword">Confirmar Contarseña</string>
+    <string name="edtxt_PhoneNumber">Numero de telefono</string>
+    <string name="txt_agree">Aceptar terminos y condiciones </string>
+    <string name="txt_createUser">Crear usuario</string>
+    <string name="edtxtemail">correo electronico</string>
+    <string name="txt_agreeterms">Aceptar </string>
+    <string name="edit_Confirmar_Clave">******</string>
+    <string name="busqueda">Busqueda</string>
+    <string name="ayuda">ayuda</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="contactar">Contactar</string>
+    <string name="enviar">Enviar</string>
+    <string name="versi_n">Versión</string>
+    <string name="txt.boton2">Ayuda</string>
+
+</resources>

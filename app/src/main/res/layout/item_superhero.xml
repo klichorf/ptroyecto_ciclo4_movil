@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivsuperhero"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        tools:background="@color/teal_700"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tvsuperheroname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ivsuperhero"
+        tools:text="Batman"
+        />
+    <TextView
+        android:id="@+id/tvrealname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvsuperheroname"
+        tools:text="Bruno Diaz"
+        app:layout_constraintStart_toEndOf="@id/ivsuperhero"
+        />
+    <TextView
+        android:id="@+id/tvpublisher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvrealname"
+        tools:text="DC COMICS"
+        app:layout_constraintStart_toEndOf="@id/ivsuperhero"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
