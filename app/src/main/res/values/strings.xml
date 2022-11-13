@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Your style</string>
+    <string name="txv_usuario">User</string>
+    <string name="edt_usuario">User input</string>
+    <string name="txv_clave">Password</string>
+    <string name="edit_clave">******</string>
+    <string name="edit_Confirmar_Clave">******</string>
+    <string name="txt_boton">Enter</string>
+    <string name="txt_remember">Forgot your password or username?</string>
+    <string name="txt_registrarse">Register</string>
+
+    <string name="edtxtform">User Form</string>
+    <string name="names">Names</string>
+    <string name="edtxtnames">Type names</string>
+    <string name="edtxtlastnames">Type Lastname</string>
+
+    <string name="edtxtemail">email</string>
+
+
+    <string name="txt_ConfirmPasword">Comfirm Password</string>
+
+
+    <string name="edtxt_PhoneNumber">Phone Number</string>
+
+    <string name="txt_agree">Accept Terms And Conditions </string>
+    <string name="txt_agreeterms">Agree </string>
+
+    <string name="txt_createUser">Create User</string>
+    <string name="busqueda">Search</string>
+    <string name="ayuda">Help</string>
+    <string name="eliminar">Delete</string>
+    <string name="contactar">Contact Us</string>
+    <string name="enviar">Send</string>
+    <string name="versi_n">Version</string>
+    <string name="txt.boton2">Help</string>
+    <string name="title_activity_main3">MainActivity3</string>
+    <string name="title_activity_main4">MainActivity4</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>
+

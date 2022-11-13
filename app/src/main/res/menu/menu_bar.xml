@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/itm_buscar"
+        android:icon="@drawable/ic_menu_search"
+        android:title="@string/busqueda"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/itm_ayuda"
+        android:icon="@drawable/ic_menu_help"
+        android:title="@string/ayuda"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/itm_borrar"
+        android:icon="@drawable/ic_menu_delete"
+        android:title="@string/eliminar"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/itm_contactar"
+        android:icon="@drawable/ic_menu_dialog_email"
+        android:title="@string/contactar"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itm_enviar"
+        android:icon="@drawable/ic_menu_send"
+        android:title="@string/enviar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itm_versión"
+        android:icon="@drawable/ic_menu_version"
+        android:title="@string/versi_n"
+        app:showAsAction="never" />
+</menu>
