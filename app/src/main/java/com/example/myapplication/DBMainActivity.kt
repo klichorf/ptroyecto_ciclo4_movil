@@ -18,7 +18,7 @@ class DBMainActivity : AppCompatActivity() {
 
         binding.btnInsertar.setOnClickListener {
             var datos = ""
-            db.collection("platos")
+            db.collection("estilistas") /// esta colecion hace referencia al nombre de la base de base datos "estilistas"
                 .get()
                 .addOnSuccessListener { result ->
                     for (document in result) {
@@ -44,7 +44,7 @@ class DBMainActivity : AppCompatActivity() {
                     "valor" to valor.toString().toInt(),
                     "stock" to stock.toString().toInt()
                 )
-                db.collection("platos")
+                db.collection("estilistas")
                     .document(id.toString()).set(datos)
                     .addOnSuccessListener { result ->
                         binding.txtConsultar.text = "Añadido correctamente"
@@ -56,21 +56,33 @@ class DBMainActivity : AppCompatActivity() {
         }
 
 
-        /*consultar un elemento
-
-
-
-
-
-
-        */
+        //consultar un elemento
+        binding.btnMostrar1.setOnClickListener {
+            val id = binding.etId.text.toString()
+            if (id.isNotBlank()) {
+                db.collection("estilistas")
+                    .document(id)
+                    .get()
+                    .addOnSuccessListener {
+                        binding.etNombre.setText(it.get("nombre") as String?)
+                        binding.etValor.setText(it.get("valor").toString() as String?)
+                        binding.etStock.setText(it.get("stock").toString() as String?)
+                        binding.etActivo.setText(it.get("activo").toString() as String?)
+                    }
+                    .addOnFailureListener { exception ->
+                        binding.txtConsultar.text = "NO se pudo consultar"
+                    }
+            } else {
+                Toast.makeText(this, "Debe Ingresar un ID", Toast.LENGTH_LONG).show()
+            }
+        }
 
 
         /*eliminar un dato - Estas funciones deben estar en OnCreate*/
         binding.btnEliminar.setOnClickListener {
             val id = binding.etId.text.toString()
             if (id.isNotBlank()) {
-                db.collection("Servicios")
+                db.collection("estilistas")
                     .document(id)
                     .delete()
                     .addOnSuccessListener {
@@ -86,3 +98,5 @@ class DBMainActivity : AppCompatActivity() {
         }
     }
 }
+
+

@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:hint="Nombre"
 
-        />
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/etValor"
@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:hint="Valor"
 
-        />
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/etActivo"
@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:hint="Activo"
 
-        />
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/etStock"
@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:hint="Stock"
 
-        />
+        android:minHeight="48dp" />
 
     <Button
         android:id="@+id/btnMostrart"

@@ -17,24 +17,38 @@
         android:id="@+id/tvsuperheroname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="18dp"
         app:layout_constraintStart_toEndOf="@id/ivsuperhero"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="Batman" />
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintVertical_bias="0.644"
+        tools:text="Servicio" />
 
     <TextView
         android:id="@+id/tvrealname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/ivsuperhero"
         app:layout_constraintTop_toBottomOf="@id/tvsuperheroname"
-        tools:text="Bruno Diaz" />
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintVertical_bias="0.644"
+        tools:text="Profesional" />
 
     <TextView
         android:id="@+id/tvpublisher"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
         app:layout_constraintStart_toEndOf="@id/ivsuperhero"
-        app:layout_constraintTop_toBottomOf="@id/tvrealname"
-        tools:text="DC COMICS" />
+        app:layout_constraintTop_toBottomOf="@+id/tvrealname"
+        app:layout_constraintVertical_bias="0.644"
+        tools:text="Línea" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

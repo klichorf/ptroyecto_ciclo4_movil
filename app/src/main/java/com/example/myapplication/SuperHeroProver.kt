@@ -19,7 +19,7 @@ class SuperHeroProver {
                 "Tinturas",
                 "Cuidado del Cabello",
                 "Sofia Pérez",
-                "https://academia-peluqueria-estetica.com/blog/61-tecnicas-mas-empleadas-para-la-coloracion-del-cabello"
+                "https://academia-peluqueria-estetica.com/images/mujer-rubia-tinte-coloraci%C3%B3n-cabello-cursos-de-peluquer%C3%ADa-en-parla.png"
             ),
             Servicios(
                 "Peinados",
